@@ -37,3 +37,4 @@ bunları şu şekilde güncellememiz gerekiyor
 ```
 
 Burada yaptığımız değişiklikle bir görsele tıklandığında id property'si England kelimesine eşit olan div'e kaydır komutu vermiş oluyoruz.
+<>
