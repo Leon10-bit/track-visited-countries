@@ -4,10 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>My Favorite Countries</title>
+<style>
+#container {
+    height: 500px;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 0 auto;}
+    </style>
     </head>
     <body>
         <h1>My Favorite Countries</h1>
-
+        <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/pattern-fill.js"></script>
+        <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+        <script src="script.js"></script>
+        <div id="container"></div>
+        
         <!-- Top flag navigation -->
         <div class="flag-nav">
             <a href="#USA"><img src="assets/flags/us.svg" alt="USA Flag" width="60"></a>
